@@ -4,6 +4,29 @@ body {
 }
 
 .header-text {
-    padding: 10px;
+    padding-top: 10px;
 }
 
+@media (min-width: 768px) {
+    .container {
+        max-width: 630px;
+    }
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content {
+    padding-top: 14px;
+}
+
+.subtle {
+    color: #9CA62E;
+}
+
+.bootstrap-override {
+    font-family: 'Open Sans', sans-serif;
+
+}
