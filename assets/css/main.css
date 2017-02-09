@@ -1,0 +1,7 @@
+h1 #bootstrap-override {
+    color: rebeccapurple;
+}
+
+p {
+    color: turquoise;
+}
