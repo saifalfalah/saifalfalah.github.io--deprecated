@@ -1,7 +1,4 @@
-h1 #bootstrap-override {
-    color: rebeccapurple;
+body {
+    padding-top: 50px;
 }
 
-p {
-    color: turquoise;
-}
