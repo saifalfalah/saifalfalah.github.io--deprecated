@@ -1,0 +1,13 @@
+{
+  "name": "saifalfalah.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Saif Al Falah",
+  "main": "index.js",
+  "repository": "https://github.com/saifalfalah/saifalfalah.github.io.git",
+  "author": "Saif Al Falah <saifalfalah@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1"
+  }
+}
