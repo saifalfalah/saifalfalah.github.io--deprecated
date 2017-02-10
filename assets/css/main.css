@@ -1,15 +1,16 @@
 body {
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-.header-text {
-    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 630px;
+    }
+    .header-text {
+        padding-top: 10px;
     }
 }
 
