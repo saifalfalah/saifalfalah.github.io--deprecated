@@ -9,7 +9,15 @@ gulp.task("bs", function() {
     });
 });
 
-gulp.task("watch", ["bs"], function() {
+gulp.task("watch", ["bs6"], function() {
     gulp.watch("./*.html").on("change", browserSync.reload);
     gulp.watch("./assets/**/*.*").on("change", browserSync.reload);
+});
+
+gulp.task("bs6", () => {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
 });
