@@ -4,16 +4,18 @@ body {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 630px;
-    }
-    .header-text {
-        padding-top: 10px;
-    }
+img {
+    width: 25vw;
 }
-
+@media only screen and (min-width: 768px){
+    .pad {
+        padding-left: 5vw!important;
+    }
+    .container-fluid {
+    padding-left: 15vw!important;
+    padding-right: 15vw!important;
+}
+}
 .header {
     padding-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
