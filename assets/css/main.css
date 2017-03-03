@@ -1,31 +1,28 @@
-body {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+@media  (max-width: 991px) {
+    img {
+        position: relative!important;
+        left: 38%!important;
+    }
 }
-img {
-    margin-left: 3vw;
-    width: 12vw;
+@media (max-width: 380px){
+    img {
+        position: relative!important;
+        left: 25%!important;
+    }
 }
-@media only screen and (min-width: 768px){
-    .pad {
+
+
+header {
+    margin: 5vw;
+}
+
+ .pad {
         padding-left: 5vw!important;
     }
     .container-fluid {
     padding-left: 15vw!important;
     padding-right: 15vw!important;
 }
-}
-.header {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.content {
-    padding-top: 14px;
-}
-
 .subtle {
     color: #9CA62E;
 }

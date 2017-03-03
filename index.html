@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Saif Al Falah | Full Stack Web Developer</title>
 
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <!--<link rel="stylesheet" href='bootstrap.min.css'>-->
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -25,41 +26,29 @@
 
 <body>
     <div class="container-fluid">
+        <header class="row">
+            
+
+            <div class="col-md-3">
+                <div class="row">
+                    <figure class="col-md-7 col-md-offset-5">
+                        <img src="./assets/images/bird.jpg" alt="saif al falah" class="img-circle" width="130px">
+                    </figure>
+                </div>
+            </div>
+           
+            <div class='col-md-7'>
+                <h1 class="bootstrap-override text-center">Saif Al Falah</h1>
+                <h4 class="subtle bootstrap-override text-center">Full Stack Web and Software Developer</h4>
+            </div>
+        
+         </header>
+
         <div class="row">
-       <div class="col-xs-4 col-xs-offset-4  col-sm-offset-4">
-                <img src="./assets/images/bird.jpg" alt="saif al falah" class="img-circle">
-       </div>
-</div>
-                
-                    <h1 class="bootstrap-override text-center">Saif Al Falah</h1>
-
-
-
-                    <h4 class="subtle bootstrap-override text-center">Full Stack Web and Software Developer</h4>
-              
-   
-
-    <!--<div class="container">
-        <div class="row header">
-
-            <div class="col-sm-3">
-                <img src="./assets/images/bird.jpg" alt="saif al falah" class="img-circle" height="135" width="135">
-            </div>
-
-            <div class="col-sm-8 col-sm-offset-1 header-text">
-                <div class="row">
-                    <h1 class="bootstrap-override">Saif Al Falah</h1>
-                </div>
-
-                <div class="row">
-                    <h4 class="subtle bootstrap-override">Full Stack Web and Software Developer</h4>
-                </div>
-            </div>
-
-        </div>-->
-
-        <div class="row content">
-            <p class="lead">Hey! I'm an independent full-stack web and software developer from <a href="https://goo.gl/maps/eF71q9ojERq" target="_blank">New Delhi, India</a>. I work primarily with <a href="http://angularjs.org/" target="_blank">AngularJS 1.x</a>, <a href="https://nodejs.org/" target="_blank">NodeJS</a> and <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a>.</p>
+            <p class="lead">Hey! I'm an independent full-stack web and software developer from 
+                <a href="https://goo.gl/maps/eF71q9ojERq" target="_blank">New Delhi, India</a>. 
+                I work primarily with <a href="http://angularjs.org/" target="_blank">AngularJS 1.x</a>, 
+                <a href="https://nodejs.org/" target="_blank">NodeJS</a> and <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a>.</p>
             
             <p class="lead">In my previous life, I used to be <a href="./assets/views/windows.html">Windows developer</a> with more than 1 Million cumulative downloads
                 on the Windows Marketplace.</p>
@@ -71,32 +60,33 @@
 
         <div class="row footer">
             <div class="row">
-                <div class="col-sm-4"> 
+                <div class="col-sm-4 col-xs-4"> 
                     <a href="mailto:saifalfalah@gmail.com"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>&nbsp;Email</a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <a href="https://github.com/saifalfalah" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;Github</a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <a href="https://twitter.com/saifalfalah" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;Twitter</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <a href="https://linkedin.com/saifalfalah" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;LinkedIn</a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-4">
                     <a href="https://linkedin.com/saifalfalah" target="_blank"><i class="fa  fa-stack-overflow fa-lg" aria-hidden="true"></i>&nbsp;Stack Overflow</a>
                 </div>
-                <div class="col-sm-4">
-                    <a href="https://linkedin.com/saifalfalah" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;LinkedIn</a>
+                <div class="col-sm-4 col-xs-4">
+                    <a href="https://linkedin.com/saifalfalah" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true">
+                        </i>&nbsp;LinkedIn</a>
                 </div>
             </div>
         </div>
     </div>
-     </div>
+
 
     <script src="./assets/js/app.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -104,5 +94,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+       <!-- <script src='bootstrap.min.js'></script>-->
 </body>
 </html>
