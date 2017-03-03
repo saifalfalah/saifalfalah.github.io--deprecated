@@ -1,3 +1,16 @@
+@media  (max-width: 991px) {
+    img {
+        position: relative!important;
+        left: 38%!important;
+    }
+}
+@media (max-width: 380px){
+    img {
+        position: relative!important;
+        left: 25%!important;
+    }
+}
+
 
 header {
     margin: 5vw;
